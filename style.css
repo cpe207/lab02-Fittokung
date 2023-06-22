@@ -1,0 +1,75 @@
+h3 {
+  font-family: cursive;
+  text-align: center;
+  color: rgb(236, 168, 84);
+  font-style: italic;
+}
+p {
+  font-family: cursive;
+  color: rgb(236, 227, 227);
+}
+
+.skill-header {
+  text-align: left;
+}
+
+a {
+  color: coral;
+}
+
+body {
+  background-color: #a77171;
+}
+
+.skill-container {
+  border: solid lightcoral;
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 16px;
+  margin-bottom: 8px;
+}
+
+.container {
+  text-align: center;
+}
+
+.centered-link {
+  display: inline-block;
+  text-align: center;
+}
+
+.image {
+  border-radius: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.gradiant-bg {
+  font-family: cursive;
+  font-size: 72px;
+  font-weight: bold;
+  background: linear-gradient(
+    45deg,
+    #ecf8f8,
+    #eee4e1,
+    #e7d8c9,
+    #e6beae,
+    #b2967d
+  );
+  background-size: 40%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  animation: gradient 5s infinite;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 100% 50%;
+  }
+}
