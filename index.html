@@ -3,40 +3,95 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>index</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
     <link rel="stylesheet" href="style.css" />
-    <title>My Portfolio</title>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous"
+    ></script>
   </head>
+
   <body>
     <div class="gradiant-bg" style="text-align: center">My Portfolio</div>
     <div class="container">
       <a href="index.html" class="centered-link">Home page |</a>
       <a href="experience.html"> Experience |</a>
+      <a href="gallery.html">Gallery |</a>
       <a href="contact.html"> Contact</a>
     </div>
     <br />
-
-    <img src="images/profile 1.jpg" width="200px" class="image" />
-    <p style="text-align: center">
-      Hi! My name is Kittiwat (Fit).<br />
-      Study in Computer Engineering Chiang Mai University <br />
-      Nice to meet you.
-    </p>
-
-    <h3>▰▱▰▱▰▱ Skills ▰▱▰▱▰▱</h3>
-    <div class="skill-container">
-      <h3 class="skill-header">Programming ❤</h3>
-      <p>
-        • C++ <br />
-        • HTML <br />
-        • CSS
-      </p>
+    <div
+      class="d-flex justify-content-center align-items-center mx-auto gap-3"
+      style="max-width: 700px"
+    >
+      <img
+        src="images/profile 1.jpg"
+        width="200px"
+        height="200px"
+        class="rounded-circle"
+        style="object-fit: cover"
+      />
+      <div>
+        <div class="display-5 mb-3 fw-bold colorhead">Kittiwat Yasarawan</div>
+        <div class="colorfont">
+          Study in Computer Engineering Chiang Mai University <br />
+          Nice to meet you.
+        </div>
+      </div>
     </div>
-    <div class="skill-container">
-      <h3 class="skill-header">Special Skill ❤</h3>
-      <p>
-        • Classical Guitar <br />
-        • Adobe Premiere Pro <br />
-        • Scriptwriting
+
+    <h3 class="colorhead p-3 fs-4" style="text-align: center">
+      ═════ Skills ═════
+    </h3>
+    <div style="max-width: 600px" class="mx-auto px-3">
+      <div class="d-flex border mb-3 shadow-sm rounded-all">
+        <div class="rounded-left">
+          <img
+            src="images/code.JPG"
+            width="150px"
+            height="167px"
+            style="object-fit: cover"
+            class="rounded-left d-none d-sm-block"
+          />
+        </div>
+        <div class="p-4">
+          <p class="fw-bold fs-5 colorhead">Programming ❤</p>
+          <span class="colorfont">
+            I can code in 5 languages: C++, HTML, CSS, Java, and Python (sort by
+            aptitude)
+          </span>
+        </div>
+      </div>
+
+      <div class="d-flex border mb-3 shadow-sm rounded-all">
+        <div class="p-4">
+          <p class="fw-bold fs-5 colorhead">Special Skill ❤</p>
+          <span class="colorfont" style="margin-right: 257px">
+            • Classical Guitar <br />
+            • Adobe Premiere Pro <br />
+            • Scriptwriting
+          </span>
+        </div>
+        <div class="rounded-right">
+          <img
+            src="images/89198.jpg"
+            width="150px"
+            height="167px"
+            style="object-fit: cover"
+            class="rounded-right d-none d-sm-block"
+          />
+        </div>
+      </div>
+      <p class="text-center text-muted m-4">
+        Copyright © 2023 Kittiwat Yasarawan, All rights reserved.
       </p>
     </div>
   </body>

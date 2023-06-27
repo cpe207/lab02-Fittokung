@@ -1,10 +1,15 @@
-h3 {
+.colorhead {
   font-family: cursive;
-  text-align: center;
-  color: rgb(236, 168, 84);
+
+  color: #fffad7;
   font-style: italic;
 }
-p {
+
+body {
+  background-color: #7e3838;
+}
+
+.colorfont {
   font-family: cursive;
   color: rgb(236, 227, 227);
 }
@@ -13,12 +18,30 @@ p {
   text-align: left;
 }
 
+p {
+  font-family: cursive;
+  color: rgb(236, 227, 227);
+}
+
 a {
   color: coral;
 }
 
-body {
-  background-color: #a77171;
+.rounded-all {
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+.rounded-left {
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+
+.rounded-right {
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
 }
 
 .skill-container {
@@ -28,6 +51,10 @@ body {
   margin-right: auto;
   padding: 16px;
   margin-bottom: 8px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
 }
 
 .container {
